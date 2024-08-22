@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: qwerty
+  description: generated from idp
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: repo
+  owner: riley.snyder@harness.io
+  lifecycle: experimental
